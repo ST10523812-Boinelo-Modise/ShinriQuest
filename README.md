@@ -9,12 +9,16 @@ the 1st screen is decieving as it implies a dark theme but ocnce you get to the 
 
 SCREEN 1 UI
 <img width="1891" height="1079" alt="image" src="https://github.com/user-attachments/assets/b5eff9f6-2561-4948-808a-39ac1ed88f86" />
+<img width="414" height="725" alt="image" src="https://github.com/user-attachments/assets/b25a5aae-927c-41f8-b173-2978a91bdb25" />
+
 SCREEN 1 KOTLIN PAGE
 <img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/f33f1910-c8fb-403c-9fc5-938c6a090863" />
 
 
 SCREEN 2 UI
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a2ca0b01-064a-4a44-9ed4-9ba61c2e2ccc" />
+<img width="461" height="799" alt="image" src="https://github.com/user-attachments/assets/547a1cd1-5536-4f96-84c1-fd187e122f4f" />
+
 SCREEN 2 KOTLIN PAGE
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f39ceb02-86de-4a48-8e7c-9caff1a454d6" />
 <img width="1917" height="1079" alt="image" src="https://github.com/user-attachments/assets/15b72aa7-655a-4eb9-b86a-74586229d0ef" />
@@ -27,6 +31,8 @@ SCREEN 2 KOTLIN PAGE
 
 SCREEN 3 UI
 <img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/c3731fa1-83a0-4a34-825b-53b681b65d70" />
+<img width="412" height="733" alt="image" src="https://github.com/user-attachments/assets/4a5032a1-9e56-4e80-9775-51ba31a0cd6f" />
+
 SCREEN 3 KOTLIN PAGE
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/708cd2a8-3b7a-4a45-90e9-efe7b4473c00" />
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/995c4552-6cb8-4962-a535-d1b91eca5627" />
