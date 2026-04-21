@@ -38,6 +38,10 @@ I used Git bash to push my code onto Github to track my changes too.using git in
 git checkout -b main to change the branch from master to main,
 git add and git commit
 and then i pushed it to the repository
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ed459994-5cd1-4fba-b808-92cc31452a7c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/46f66c6e-76f5-4e55-aad3-1edca63dd89c" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/53dff344-fc5c-441e-8adf-1f6f6383e989" />
+
 
 
 
