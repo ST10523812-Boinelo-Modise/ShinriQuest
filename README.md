@@ -32,6 +32,15 @@ SCREEN 3 KOTLIN PAGE
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/995c4552-6cb8-4962-a535-d1b91eca5627" />
 
 
+*******HOW I USED GITHUB****
+I used Android Studio to build my app and that is where i would also make changes and save my code there.
+I used Git bash to push my code onto Github to track my changes too.using git intit, 
+git checkout -b main to change the branch from master to main,
+git add and git commit
+and then i pushed it to the repository
+
+
+
 
 
 
