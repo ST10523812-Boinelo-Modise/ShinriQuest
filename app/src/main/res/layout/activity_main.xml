@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#613B01"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="325dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text="WELCOME TO "
+        android:textColor="#B18E59"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="242dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="SHINRI QUEST"
+        android:textColor="#87693D"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="374dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="THERE ARE A TOTAL OF 3 QUESTIONS...LET'S SEE IF YOU CAN GUESS CORRECTLY....?"
+        android:textColor="#E4B46F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="157dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="75dp"
+        android:backgroundTint="#6B4409"
+        android:text="LET'S GOOOO!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescription" />
+
+    <ImageView
+        android:id="@+id/curse"
+        android:layout_width="149dp"
+        android:layout_height="229dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/_c7949287afb30c099a4783fffe085df_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/ScaryMan"
+        android:layout_width="137dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toEndOf="@+id/tvWelcome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_9c4f53ebe01a2ca030e562827e2b79e_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/ivFat"
+        android:layout_width="96dp"
+        android:layout_height="176dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/curse"
+        app:srcCompat="@drawable/af2fc75626e8767b4fa89f4273996ce7_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="133dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="332dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bbafb6639cf5c4adcd5acbf471df1334_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8BFBF"
+    android:rotation="0"
+    tools:context=".FlascardPage">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="125dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="281dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_c1e9037a790bd0e05a75c317f9fd6ba_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="223dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_82e9a5475b0294f5c1c5608f00b75ec_removebg_preview" />
+
+    <TextView
+        android:id="@+id/tvMyth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="180dp"
+        android:fontFamily="@font/black_and_white_picture"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#3C3333"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="110dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="164dp"
+        android:backgroundTint="#545050"
+        android:text="🐼HACK!!🐼"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="119dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="172dp"
+        android:backgroundTint="#4E4A4A"
+        android:text="🐇MYTHHH!!🐇"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/image1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toEndOf="@+id/btnTrue" />
+
+    <TextView
+        android:id="@+id/tvAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="266dp"
+        android:fontFamily="@font/black_and_white_picture"
+        android:text="&#128026;"
+        android:textColor="#423838"
+        android:textColorLink="#0B0A0A"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#474444"
+        android:text="🕑NEXT QUESTIONN!!🕑"
+        app:layout_constraintBottom_toTopOf="@+id/image1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnShowResultScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="161dp"
+        android:backgroundTint="#6A6666"
+        android:text="❕SEE MY SCORING❕"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNextQuestion" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvMyth"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_c476d3c3e0b4f4c2322130901b22204_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="138dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvMyth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_44b8f92410b3896456551a41f7e08c3_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
